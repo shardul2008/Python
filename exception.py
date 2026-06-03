@@ -1,6 +1,7 @@
-a= 10
-b= 0
+#roll = int(input("Enter Roll no.:"))
+#print("Roll no:",roll)
 try:
-    print(a/b)
+    roll = int(input("Enter Roll no.:"))
+    print("Roll no:",roll)
 except:
-    print("Ecxeption")
+    print("Enter valid input")
